@@ -44,6 +44,6 @@ int main(int argc, char** argv) {
     s.addObject(new Plane(Vector(0.f, 1.f, 0.f), Vector(0.f, -1.f, 0.f)));
 
     unsigned char* pixels = c.render(s);
-    writePPM(pixels, WIDTH, HEIGHT, "C:\\Users\\bob\\graphics\\image.ppm");
+    writePPM(pixels, WIDTH, HEIGHT, "..\\renders\\image.ppm");
 	return 0;
 }
