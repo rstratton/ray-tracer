@@ -6,8 +6,8 @@
 
 #pragma warning(disable:4996)
 
-const int WIDTH = 1280;
-const int HEIGHT = 960;
+const int WIDTH = 4000;
+const int HEIGHT = 4000;
 
 void writePPM(unsigned char *buf, int width, int height, const char *fn) {
     FILE *fp = fopen(fn, "wb");
